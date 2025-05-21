@@ -1,0 +1,561 @@
+
+
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip install streamlit
+Requirement already satisfied: streamlit in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.2)        
+Requirement already satisfied: click<9,>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (8.2.0)
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.5)
+Requirement already satisfied: packaging<25,>=20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (11.2.1)        
+Requirement already satisfied: protobuf<7,>=3.20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.30.2)        
+Requirement already satisfied: pyarrow>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.32.3)        
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (9.1.2)       
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (4.13.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.0.0)        
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (3.1.44)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.9.1)        
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.6)    
+Requirement already satisfied: jsonschema>=3.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (1.39.0)
+Requirement already satisfied: colorama in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)   
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.24.0)
+Requirement already satisfied: six>=1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: C:\Users\Latifat\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Latifat\Documents\Phython\AIR CRASH\venv\Scripts\streamlit.exe\__main__.py", line 4, in <module>
+    from streamlit.web.cli import main
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Latifat\Documents\Phython\AIR CRASH\venv\Scripts\streamlit.exe\__main__.py", line 4, in <module>
+    from streamlit.web.cli import main
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip install streamlit
+Requirement already satisfied: streamlit in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.2)        
+Requirement already satisfied: click<9,>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (8.2.0)
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.5)
+Requirement already satisfied: packaging<25,>=20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (11.2.1)        
+Requirement already satisfied: protobuf<7,>=3.20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.30.2)        
+Requirement already satisfied: pyarrow>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.32.3)        
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (9.1.2)       
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (4.13.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.0.0)        
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (3.1.44)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.9.1)        
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.6)    
+Requirement already satisfied: jsonschema>=3.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (1.39.0)
+Requirement already satisfied: colorama in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)   
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.24.0)
+Requirement already satisfied: six>=1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: C:\Users\Latifat\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Latifat\Documents\Phython\AIR CRASH\venv\Scripts\streamlit.exe\__main__.py", line 4, in <module>
+    from streamlit.web.cli import main
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "C:/Users/Latifat/Documents/Phython/AIR CRASH/venv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip install streamlit
+Requirement already satisfied: streamlit in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.2)        
+Requirement already satisfied: click<9,>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (8.2.0)
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.5)
+Requirement already satisfied: packaging<25,>=20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (11.2.1)        
+Requirement already satisfied: protobuf<7,>=3.20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.30.2)        
+Requirement already satisfied: pyarrow>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.32.3)        
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (9.1.2)       
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (4.13.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.0.0)        
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (3.1.44)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.9.1)        
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.6)    
+Requirement already satisfied: jsonschema>=3.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (1.39.0)
+Requirement already satisfied: colorama in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)   
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.24.0)
+Requirement already satisfied: six>=1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: C:\Users\Latifat\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> dir     
+
+
+    Directory: C:\Users\Latifat\Documents\Phython\AIR CRASH
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5/14/2025   6:35 PM                .ipynb_checkpoints
+d-----         5/21/2025   7:23 PM                venv
+-a----         5/13/2025   4:23 PM         548747 Air Crash Full Data
+                                                  Updated_2024.csv
+-a----         5/21/2025   7:45 PM           6466 air.py
+-a----         5/21/2025   7:45 PM          16195 Cleaning.ipynb
+-a----         5/19/2025  10:16 PM           1508 requirement
+
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> venv\Scripts\activate
+venv\Scripts\activate : The module 'venv' could not be loaded. For more 
+information, run 'Import-Module venv'.
+At line:1 char:1
++ venv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (venv\Scripts\activate:String) [  
+   ], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> appenv\Scripts\activate
+appenv\Scripts\activate : The module 'appenv' could not be loaded. For more 
+information, run 'Import-Module appenv'.
+At line:1 char:1
++ appenv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (appenv\Scripts\activate:String)  
+    [], CommandNotFoundException
+    + FullyQualifiedErrorId : CouldNotAutoLoadModule
+ 
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> py -m venv appenv
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> appenv\Scripts\activate
+appenv\Scripts\activate : File C:\Users\Latifat\Documents\Phython\AIR 
+CRASH\appenv\Scripts\Activate.ps1 cannot be loaded because running scripts is   
+disabled on this system. For more information, see about_Execution_Policies at  
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ appenv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException        
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> appenv\Scripts\activate
+appenv\Scripts\activate : File C:\Users\Latifat\Documents\Phython\AIR 
+CRASH\appenv\Scripts\Activate.ps1 cannot be loaded because running scripts is   
+disabled on this system. For more information, see about_Execution_Policies at  
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ appenv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException        
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> py
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> py -m venv
+usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear]
+            [--upgrade] [--without-pip] [--prompt PROMPT] [--upgrade-deps]      
+            [--without-scm-ignore-files]
+            ENV_DIR [ENV_DIR ...]
+venv: error: the following arguments are required: ENV_DIR
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> dir
+
+
+    Directory: C:\Users\Latifat\Documents\Phython\AIR CRASH
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5/14/2025   6:35 PM                .ipynb_checkpoints
+d-----         5/21/2025   7:49 PM                appenv
+-a----         5/13/2025   4:23 PM         548747 Air Crash Full Data
+                                                  Updated_2024.csv
+-a----         5/21/2025   7:45 PM           6466 air.py
+-a----         5/21/2025   7:45 PM          16195 Cleaning.ipynb
+-a----         5/19/2025  10:16 PM           1508 requirement
+
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> appenv\Scripts\activate
+appenv\Scripts\activate : File C:\Users\Latifat\Documents\Phython\AIR 
+CRASH\appenv\Scripts\Activate.ps1 cannot be loaded because running scripts is   
+disabled on this system. For more information, see about_Execution_Policies at  
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ appenv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException        
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> python -m streamlit
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+
+  Try out a demo with:
+
+      $ streamlit hello
+
+  Or use the line below to run your own script:
+
+      $ streamlit run your_script.py
+
+Options:
+  --log_level [error|warning|info|debug]
+  --version                       Show the version and exit.
+  --help                          Show this message and exit.
+
+Commands:
+  activate  Activate Streamlit by entering your email.
+  cache     Manage the Streamlit cache.
+  config    Manage Streamlit's config settings.
+  docs      Show help in browser.
+  hello     Runs the Hello World script.
+  help      Print this help message.
+  init      Initialize a new Streamlit project.
+  run       Run a Python script, piping stderr to Streamlit.
+  version   Print Streamlit's version number.
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> appenv\Scripts\activate
+appenv\Scripts\activate : File C:\Users\Latifat\Documents\Phython\AIR 
+CRASH\appenv\Scripts\Activate.ps1 cannot be loaded because running scripts is   
+disabled on this system. For more information, see about_Execution_Policies at  
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ appenv\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip install streamlit
+Requirement already satisfied: streamlit in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.2)        
+Requirement already satisfied: click<9,>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (8.2.0)
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.5)
+Requirement already satisfied: packaging<25,>=20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (11.2.1)        
+Requirement already satisfied: protobuf<7,>=3.20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.30.2)        
+Requirement already satisfied: pyarrow>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.32.3)        
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (9.1.2)       
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (4.13.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.0.0)        
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (3.1.44)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.9.1)        
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.6)    
+Requirement already satisfied: jsonschema>=3.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (1.39.0)
+Requirement already satisfied: colorama in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)   
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.24.0)
+Requirement already satisfied: six>=1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.8.32:8501
+
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+2025-05-21 20:06:56.373 Received event for non-watched file: C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py
+2025-05-21 20:06:56.376 Received event for non-watched file: C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py
+2025-05-21 20:06:56.431 Received event for non-watched file: C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py
+2025-05-21 20:06:56.432 Received event for non-watched file: C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py
+  Stopping...
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 133
+    decade_counts = ( = (
+                      ^
+SyntaxError: invalid syntax
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "c:\Users\Latifat\Documents\Phython\AIR CRASH\air.py", line 133
+    decade_counts = ( = (
+                      ^
+SyntaxError: invalid syntax
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe"
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> deprecated
+Traceback (most recent call last):
+  File "<python-input-0>", line 1, in <module>
+    deprecated
+NameError: name 'deprecated' is not defined
+>>> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" \"c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "<python-input-1>", line 1
+    & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+    ^
+SyntaxError: invalid syntax
+>>> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" \"c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "<python-input-2>", line 1
+    & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+    ^
+SyntaxError: invalid syntax
+>>> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" \
+"c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "<python-input-3>", line 1
+    & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+    ^
+SyntaxError: invalid syntax
+>>> & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" \"c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+  File "<python-input-4>", line 1
+    & "c:/Users/Latifat/Documents/Phython/AIR CRASH/appenv/Scripts/python.exe" "c:/Users/Latifat/Documents/Phython/AIR CRASH/air.py"
+    ^
+SyntaxError: invalid syntax
+>>> exit()
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> py -m streamlit
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+
+  Try out a demo with:
+
+      $ streamlit hello
+
+  Or use the line below to run your own script:
+
+      $ streamlit run your_script.py
+
+Options:
+  --log_level [error|warning|info|debug]
+  --version                       Show the version and exit.
+  --help                          Show this message and exit.
+
+Commands:
+  activate  Activate Streamlit by entering your email.
+  cache     Manage the Streamlit cache.
+  config    Manage Streamlit's config settings.
+  docs      Show help in browser.
+  hello     Runs the Hello World script.
+  help      Print this help message.
+  init      Initialize a new Streamlit project.
+  run       Run a Python script, piping stderr to Streamlit.
+  version   Print Streamlit's version number.
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> dir
+
+
+    Directory: C:\Users\Latifat\Documents\Phython\AIR CRASH
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5/14/2025   6:35 PM                .ipynb_checkpoints
+d-----         5/21/2025   7:49 PM                appenv
+-a----         5/13/2025   4:23 PM         548747 Air Crash Full Data
+                                                  Updated_2024.csv
+-a----         5/21/2025   8:09 PM           6467 air.py
+-a----         5/21/2025   7:45 PM          16195 Cleaning.ipynb
+-a----         5/19/2025  10:16 PM           1508 requirement
+
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip install streamlit
+Requirement already satisfied: streamlit in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (1.45.1)
+Requirement already satisfied: altair<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.0)
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (5.5.2)        
+Requirement already satisfied: click<9,>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (8.2.0)
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.5)
+Requirement already satisfied: packaging<25,>=20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (24.2)
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.2.3)
+Requirement already satisfied: pillow<12,>=7.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (11.2.1)        
+Requirement already satisfied: protobuf<7,>=3.20 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.30.2)        
+Requirement already satisfied: pyarrow>=7.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (20.0.0)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (2.32.3)        
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (9.1.2)       
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (4.13.2)
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.0.0)        
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (3.1.44)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (0.9.1)        
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from streamlit) (6.4.2)
+Requirement already satisfied: jinja2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.6)    
+Requirement already satisfied: jsonschema>=3.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (4.23.0)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from altair<6,>=4.0->streamlit) (1.39.0)
+Requirement already satisfied: colorama in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)   
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from pandas<3,>=1.4.0->streamlit) (2025.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from requests<3,>=2.27->streamlit) (2025.4.26)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (3.0.2)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.24.0)
+Requirement already satisfied: six>=1.5 in c:\users\latifat\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit) (1.17.0)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.8.32:8501
+
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
+  Stopping...
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> freeze > requirement txt
+freeze : The term 'freeze' is not recognized as the name of a cmdlet, 
+function, script file, or operable program. Check the spelling of the name, or  
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ freeze > requirement txt
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (freeze:String) [], CommandNotFo  
+   undException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> pip freeze > requirement txt
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit .run air.py
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try 'streamlit --help' for help.
+
+Error: No such command '.run'.
+PS C:\Users\Latifat\Documents\Phython\AIR CRASH> streamlit run air.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.8.32:8501
+
+C:\Users\Latifat\Documents\Phython\AIR CRASH\air.py:166: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  filtered_df.groupby("year_bin")["fatalities_air"]
